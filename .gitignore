@@ -1,0 +1,7 @@
+*.parquet
+*.npz
+*.log
+logs/
+output/
+__pycache__/
+.venv/
