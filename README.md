@@ -101,7 +101,7 @@ experiment but is not part of the final file.
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-DC_DATA=/path/to/challenge/data ./run_all.sh
+DC_DATA=/path/to/challenge/data bash run_all.sh
 ```
 
 Outputs are written to the current directory:
